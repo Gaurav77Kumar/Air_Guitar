@@ -118,10 +118,10 @@ def main():
                         prev_roll = current_roll
                 except: pass
             else:
-                time.sleep(0.001)
+                time.sleep(0.01 )
     except KeyboardInterrupt:
         stream.stop()
         ser.close()
 
 if __name__ == "__main__":
-    main()
+    main() 
